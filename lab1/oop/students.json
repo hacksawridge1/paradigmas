@@ -1,0 +1,321 @@
+{
+  "students": [
+    {
+      "name": "Алексей",
+      "surname": "Иванов",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 20
+    },
+    {
+      "name": "Мария",
+      "surname": "Петрова",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 19
+    },
+    {
+      "name": "Дмитрий",
+      "surname": "Сидоров",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 21
+    },
+    {
+      "name": "Екатерина",
+      "surname": "Смирнова",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 22
+    },
+    {
+      "name": "Иван",
+      "surname": "Кузнецов",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 20
+    },
+    {
+      "name": "Анна",
+      "surname": "Васильева",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 19
+    },
+    {
+      "name": "Сергей",
+      "surname": "Михайлов",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 23
+    },
+    {
+      "name": "Ольга",
+      "surname": "Федорова",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 20
+    },
+    {
+      "name": "Павел",
+      "surname": "Морозов",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 21
+    },
+    {
+      "name": "Юлия",
+      "surname": "Коваленко",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 22
+    },
+    {
+      "name": "Максим",
+      "surname": "Попов",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 19
+    },
+    {
+      "name": "Елена",
+      "surname": "Новикова",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 20
+    },
+    {
+      "name": "Андрей",
+      "surname": "Григорьев",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 24
+    },
+    {
+      "name": "Наталья",
+      "surname": "Соколова",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 21
+    },
+    {
+      "name": "Виктор",
+      "surname": "Лебедев",
+      "group": "ИТ-21",
+      "subgroup": "1",
+      "age": 22
+    },
+    {
+      "name": "Татьяна",
+      "surname": "Козлова",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 20
+    },
+    {
+      "name": "Николай",
+      "surname": "Орлов",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 23
+    },
+    {
+      "name": "Светлана",
+      "surname": "Русакова",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 19
+    },
+    {
+      "name": "Владимир",
+      "surname": "Зайцев",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 21
+    },
+    {
+      "name": "Ирина",
+      "surname": "Громова",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 20
+    },
+    {
+      "name": "Артём",
+      "surname": "Лазарев",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 22
+    },
+    {
+      "name": "Валерия",
+      "surname": "Беляева",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 19
+    },
+    {
+      "name": "Роман",
+      "surname": "Титов",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 24
+    },
+    {
+      "name": "Ксения",
+      "surname": "Егорова",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 20
+    },
+    {
+      "name": "Глеб",
+      "surname": "Шаров",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 21
+    },
+    {
+      "name": "Алина",
+      "surname": "Медведева",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 22
+    },
+    {
+      "name": "Егор",
+      "surname": "Волков",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 23
+    },
+    {
+      "name": "Вера",
+      "surname": "Крылова",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 20
+    },
+    {
+      "name": "Илья",
+      "surname": "Богданов",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 21
+    },
+    {
+      "name": "Дарья",
+      "surname": "Савельева",
+      "group": "ИТ-21",
+      "subgroup": "2",
+      "age": 19
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": "Программирование",
+      "rating": [
+        {"name": "Алексей", "surname": "Иванов", "rating": 5},
+        {"name": "Мария", "surname": "Петрова", "rating": 4},
+        {"name": "Дмитрий", "surname": "Сидоров", "rating": 5},
+        {"name": "Екатерина", "surname": "Смирнова", "rating": 4},
+        {"name": "Иван", "surname": "Кузнецов", "rating": 3},
+        {"name": "Анна", "surname": "Васильева", "rating": 5},
+        {"name": "Сергей", "surname": "Михайлов", "rating": 4},
+        {"name": "Ольга", "surname": "Федорова", "rating": 5},
+        {"name": "Павел", "surname": "Морозов", "rating": 3},
+        {"name": "Юлия", "surname": "Коваленко", "rating": 4},
+        {"name": "Максим", "surname": "Попов", "rating": 5},
+        {"name": "Елена", "surname": "Новикова", "rating": 4},
+        {"name": "Андрей", "surname": "Григорьев", "rating": 3},
+        {"name": "Наталья", "surname": "Соколова", "rating": 5},
+        {"name": "Виктор", "surname": "Лебедев", "rating": 4},
+        {"name": "Татьяна", "surname": "Козлова", "rating": 5},
+        {"name": "Николай", "surname": "Орлов", "rating": 4},
+        {"name": "Светлана", "surname": "Русакова", "rating": 3},
+        {"name": "Владимир", "surname": "Зайцев", "rating": 5},
+        {"name": "Ирина", "surname": "Громова", "rating": 4},
+        {"name": "Артём", "surname": "Лазарев", "rating": 5},
+        {"name": "Валерия", "surname": "Беляева", "rating": 4},
+        {"name": "Роман", "surname": "Титов", "rating": 3},
+        {"name": "Ксения", "surname": "Егорова", "rating": 5},
+        {"name": "Глеб", "surname": "Шаров", "rating": 4},
+        {"name": "Алина", "surname": "Медведева", "rating": 5},
+        {"name": "Егор", "surname": "Волков", "rating": 4},
+        {"name": "Вера", "surname": "Крылова", "rating": 3},
+        {"name": "Илья", "surname": "Богданов", "rating": 5},
+        {"name": "Дарья", "surname": "Савельева", "rating": 4}
+      ]
+    },
+    {
+      "lesson": "Математика",
+      "rating": [
+        {"name": "Алексей", "surname": "Иванов", "rating": 4},
+        {"name": "Мария", "surname": "Петрова", "rating": 5},
+        {"name": "Дмитрий", "surname": "Сидоров", "rating": 4},
+        {"name": "Екатерина", "surname": "Смирнова", "rating": 5},
+        {"name": "Иван", "surname": "Кузнецов", "rating": 3},
+        {"name": "Анна", "surname": "Васильева", "rating": 4},
+        {"name": "Сергей", "surname": "Михайлов", "rating": 5},
+        {"name": "Ольга", "surname": "Федорова", "rating": 4},
+        {"name": "Павел", "surname": "Морозов", "rating": 3},
+        {"name": "Юлия", "surname": "Коваленко", "rating": 5},
+        {"name": "Максим", "surname": "Попов", "rating": 4},
+        {"name": "Елена", "surname": "Новикова", "rating": 5},
+        {"name": "Андрей", "surname": "Григорьев", "rating": 4},
+        {"name": "Наталья", "surname": "Соколова", "rating": 3},
+        {"name": "Виктор", "surname": "Лебедев", "rating": 5},
+        {"name": "Татьяна", "surname": "Козлова", "rating": 4},
+        {"name": "Николай", "surname": "Орлов", "rating": 5},
+        {"name": "Светлана", "surname": "Русакова", "rating": 4},
+        {"name": "Владимир", "surname": "Зайцев", "rating": 3},
+        {"name": "Ирина", "surname": "Громова", "rating": 5},
+        {"name": "Артём", "surname": "Лазарев", "rating": 4},
+        {"name": "Валерия", "surname": "Беляева", "rating": 5},
+        {"name": "Роман", "surname": "Титов", "rating": 4},
+        {"name": "Ксения", "surname": "Егорова", "rating": 3},
+        {"name": "Глеб", "surname": "Шаров", "rating": 5},
+        {"name": "Алина", "surname": "Медведева", "rating": 4},
+        {"name": "Егор", "surname": "Волков", "rating": 5},
+        {"name": "Вера", "surname": "Крылова", "rating": 4},
+        {"name": "Илья", "surname": "Богданов", "rating": 3},
+        {"name": "Дарья", "surname": "Савельева", "rating": 5}
+      ]
+    },
+    {
+      "lesson": "Базы данных",
+      "rating": [
+        {"name": "Алексей", "surname": "Иванов", "rating": 5},
+        {"name": "Мария", "surname": "Петрова", "rating": 4},
+        {"name": "Дмитрий", "surname": "Сидоров", "rating": 5},
+        {"name": "Екатерина", "surname": "Смирнова", "rating": 4},
+        {"name": "Иван", "surname": "Кузнецов", "rating": 3},
+        {"name": "Анна", "surname": "Васильева", "rating": 5},
+        {"name": "Сергей", "surname": "Михайлов", "rating": 4},
+        {"name": "Ольга", "surname": "Федорова", "rating": 5},
+        {"name": "Павел", "surname": "Морозов", "rating": 4},
+        {"name": "Юлия", "surname": "Коваленко", "rating": 3},
+        {"name": "Максим", "surname": "Попов", "rating": 5},
+        {"name": "Елена", "surname": "Новикова", "rating": 4},
+        {"name": "Андрей", "surname": "Григорьев", "rating": 5},
+        {"name": "Наталья", "surname": "Соколова", "rating": 4},
+        {"name": "Виктор", "surname": "Лебедев", "rating": 3},
+        {"name": "Татьяна", "surname": "Козлова", "rating": 5},
+        {"name": "Николай", "surname": "Орлов", "rating": 4},
+        {"name": "Светлана", "surname": "Русакова", "rating": 5},
+        {"name": "Владимир", "surname": "Зайцев", "rating": 4},
+        {"name": "Ирина", "surname": "Громова", "rating": 3},
+        {"name": "Артём", "surname": "Лазарев", "rating": 5},
+        {"name": "Валерия", "surname": "Беляева", "rating": 4},
+        {"name": "Роман", "surname": "Титов", "rating": 5},
+        {"name": "Ксения", "surname": "Егорова", "rating": 4},
+        {"name": "Глеб", "surname": "Шаров", "rating": 3},
+        {"name": "Алина", "surname": "Медведева", "rating": 5},
+        {"name": "Егор", "surname": "Волков", "rating": 4},
+        {"name": "Вера", "surname": "Крылова", "rating": 5},
+        {"name": "Илья", "surname": "Богданов", "rating": 4},
+        {"name": "Дарья", "surname": "Савельева", "rating": 3}
+      ]
+    }
+  ]
+}
