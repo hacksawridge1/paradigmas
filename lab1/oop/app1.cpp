@@ -1,37 +1,12 @@
-#include <locale>
-#include <codecvt>
-#include <string>
-#include <iostream>
-#include <fstream>
-#include "lib/json.hpp"
-#include "lib/convert.cpp"
-#include "lib/console.cpp"
-#include "lib/jsonfile.cpp"
-
-bool isFirstLetterA(const std::string& str);
+#include "lib/db.h"
+#include <windows.h>
 
 int main()
 {
+	SetConsoleOutputCP(CP_UTF8);
 	setlocale(LC_ALL, "");
-	Convert converter;
-	JsonFile json("students.json");
-	Console con;
-	nlohmann::json sortedJson;
-	for (auto& el : json.getRawJson()["students"])
-	{
-		std::cout << el << "\n";
-		std::cout << isFirstLetterA(el["name"]) << "\n";
-		if (isFirstLetterA(el["name"]))
-		{
-			sortedJson.push_back(el);
-		}
-	};
+	std::wcout.imbue(std::locale(""));
+	DB db("mongodb://localhost:27017", "university", "students");
+	db.show_by_first_letter("name", L'\u0410');
 	return 0;
-}
-
-bool isFirstLetterA(const std::string& str) {
-    if (str.empty()) {
-        return false;
-    }
-    return str[0] == 'A' || str[0] == 'a';
 }
