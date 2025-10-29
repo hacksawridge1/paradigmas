@@ -24,7 +24,7 @@ LIBS = mongocxx-v_noabi-rhs-x64-v143-md.lib bsoncxx-v_noabi-rhs-x64-v143-md.lib 
 TARGET = app1.exe
 
 # Исходные файлы
-SOURCES = *.cpp
+SOURCES = *1.cpp
 
 # Цель по умолчанию
 all: $(TARGET)

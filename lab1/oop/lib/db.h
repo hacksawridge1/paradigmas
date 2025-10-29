@@ -87,6 +87,10 @@ public:
       }
     }
   }
+
+  void show_by_first_letter_and_rate_higher_then_4(std::string p_key, wchar_t p_ch)
+  {
+  }
 };
 
 #endif
