@@ -21,10 +21,10 @@ LIBS = mongocxx-v_noabi-rhs-x64-v143-md.lib bsoncxx-v_noabi-rhs-x64-v143-md.lib 
 !ENDIF
 
 # Имя целевого исполняемого файла
-TARGET = app1.exe
+TARGET = project.exe
 
 # Исходные файлы
-SOURCES = *1.cpp
+SOURCES = src/*.cpp
 
 # Цель по умолчанию
 all: $(TARGET)

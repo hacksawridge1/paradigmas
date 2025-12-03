@@ -22,9 +22,12 @@ private:
   std::string db_name;
   mongocxx::uri uri;
   mongocxx::client client;
+
+protected:
   mongocxx::v_noabi::collection collection;
   mongocxx::v_noabi::database db;
 
+private:
   void set_db(std::string p_db_name)
   {
     db = client[db_name];
